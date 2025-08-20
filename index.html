@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PowerFit Academia - Página Inicial</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header com navegação -->
+    <header>
+        <nav class="navbar">
+            <div class="nav-container">
+                <a href="index.html" class="nav-logo">PowerFit</a>
+                <ul class="nav-menu">
+                    <li class="nav-item">
+                        <a href="index.html" class="nav-link active">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="sobre.html" class="nav-link">Sobre</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="servicos.html" class="nav-link">Serviços</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="blog.html" class="nav-link">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="contato.html" class="nav-link">Contato</a>
+                    </li>
+                </ul>
+                <div class="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Banner Principal -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Transforme seu corpo, transforme sua vida</h1>
+            <p>Na PowerFit, oferecemos equipamentos de última geração e instrutores especializados para ajudar você a alcançar seus objetivos.</p>
+            <a href="servicos.html" class="btn-primary">Conheça nossos serviços</a>
+        </div>
+    </section>
+
+    <!-- Destaques -->
+    <section class="features">
+        <div class="container">
+            <h2 class="section-title">Por que escolher a PowerFit?</h2>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <i class="fas fa-dumbbell"></i>
+                    <h3>Equipamentos Modernos</h3>
+                    <p>Academia equipada com os melhores aparelhos do mercado.</p>
+                </div>
+                <div class="feature-card">
+                    <i class="fas fa-users"></i>
+                    <h3>Instrutores Qualificados</h3>
+                    <p>Profissionais especializados para te orientar da melhor forma.</p>
+                </div>
+                <div class="feature-card">
+                    <i class="fas fa-clock"></i>
+                    <h3>Horário Flexível</h3>
+                    <p>Funcionamento das 5h às 23h, todos os dias da semana.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Serviços em Destaque -->
+    <section class="services-preview">
+        <div class="container">
+            <h2 class="section-title">Nossos Serviços</h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <img src="img/musculacao.jpg" alt="Musculação">
+                    <h3>Musculação</h3>
+                    <p>Área completa com equipamentos de última geração.</p>
+                    <a href="servicos.html#musculacao" class="btn-secondary">Saiba mais</a>
+                </div>
+                <div class="service-card">
+                    <img src="img/crossfit.jpg" alt="Crossfit">
+                    <h3>Crossfit</h3>
+                    <p>Treinos funcionais de alta intensidade com profissionais especializados.</p>
+                    <a href="servicos.html#crossfit" class="btn-secondary">Saiba mais</a>
+                </div>
+                <div class="service-card">
+                    <img src="img/yoga.jpg" alt="Yoga">
+                    <h3>Yoga & Pilates</h3>
+                    <p>Exercícios para mente e corpo, melhorando flexibilidade e postura.</p>
+                    <a href="servicos.html#yoga" class="btn-secondary">Saiba mais</a>
+                </div>
+            </div>
+            <div class="text-center">
+                <a href="servicos.html" class="btn-primary">Ver todos os serviços</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Depoimentos (Carrossel) -->
+    <section class="testimonials">
+        <div class="container">
+            <h2 class="section-title">O que nossos alunos dizem</h2>
+            <div class="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="testimonial-card">
+                            <p>"Treino na PowerFit há 2 anos e nunca me senti tão bem! Os instrutores são incríveis e a estrutura é de primeira."</p>
+                            <h4>Carlos Silva</h4>
+                            <span>Aluno há 2 anos</span>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="testimonial-card">
+                            <p>"Consegui perder 15kg em 6 meses com a orientação dos profissionais da PowerFit. Melhor decisão da minha vida!"</p>
+                            <h4>Mariana Oliveira</h4>
+                            <span>Aluna há 1 ano</span>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="testimonial-card">
+                            <p>"O ambiente é motivador e os equipamentos são sempre mantidos em perfeito estado. Recomendo para todos!"</p>
+                            <h4>João Santos</h4>
+                            <span>Aluno há 3 anos</span>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control prev"><i class="fas fa-chevron-left"></i></button>
+                <button class="carousel-control next"><i class="fas fa-chevron-right"></i></button>
+                <div class="carousel-indicators">
+                    <span class="indicator active" data-index="0"></span>
+                    <span class="indicator" data-index="1"></span>
+                    <span class="indicator" data-index="2"></span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="cta">
+        <div class="container">
+            <h2>Pronto para começar sua transformação?</h2>
+            <p>Agende uma visita e ganhe uma aula experimental gratuita!</p>
+            <a href="contato.html" class="btn-primary">Agendar agora</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-container">
+            <div class="footer-section">
+                <h3>PowerFit</h3>
+                <p>Transformando vidas através do exercício físico desde 2010.</p>
+                <div class="social-icons">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+            <div class="footer-section">
+                <h4>Links Rápidos</h4>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="sobre.html">Sobre</a></li>
+                    <li><a href="servicos.html">Serviços</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="contato.html">Contato</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Serviços</h4>
+                <ul>
+                    <li><a href="servicos.html#musculacao">Musculação</a></li>
+                    <li><a href="servicos.html#cardio">Cardio</a></li>
+                    <li><a href="servicos.html#crossfit">Crossfit</a></li>
+                    <li><a href="servicos.html#yoga">Yoga & Pilates</a></li>
+                    <li><a href="servicos.html#personal">Personal Trainer</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Contato</h4>
+                <ul>
+                    <li><i class="fas fa-map-marker-alt"></i> Rua da Academia, 123, Centro</li>
+                    <li><i class="fas fa-phone"></i> (11) 9999-9999</li>
+                    <li><i class="fas fa-envelope"></i> contato@powerfit.com</li>
+                    <li><i class="fas fa-clock"></i> Seg a Sex: 5h-23h | Sáb: 6h-20h | Dom: 8h-16h</li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2023 PowerFit Academia. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
